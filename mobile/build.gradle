@@ -95,9 +95,6 @@ dependencies {
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
 
-    // Play Services
-    compile "com.google.android.gms:play-services-wearable:$commonPlayServicesVersion"
-
     // Firebase
     implementation "com.google.firebase:firebase-core:$commonPlayServicesVersion"
     implementation "com.google.firebase:firebase-config:$commonPlayServicesVersion"
@@ -122,18 +119,18 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}"
 
     // Networking
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    implementation 'com.squareup.retrofit2:converter-moshi:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.4.0'
     implementation 'com.squareup.moshi:moshi:1.5.0'
-    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
 
     // Other
-    implementation 'com.squareup.okio:okio:1.13.0'
-    implementation 'com.jakewharton.timber:timber:4.6.0'
+    implementation 'com.squareup.okio:okio:1.14.0'
+    implementation 'com.jakewharton.timber:timber:4.7.0'
     implementation('de.psdev.licensesdialog:licensesdialog:1.8.3') { exclude module: 'support-v4' }
 
 }
